@@ -1,3 +1,6 @@
 [submodule "strudel"]
 	path = strudel
 	url = https://github.com/tidalcycles/strudel.git
+[submodule "PonyGE2"]
+	path = PonyGE2
+	url = https://github.com/lytex/PonyGE2

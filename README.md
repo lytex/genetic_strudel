@@ -6,6 +6,9 @@ To install `node_modules`
 npm i @strudel/core @strudel/mini --save
 ```
 
+Run
+
 ```bash
 node test.mjs
+python -m pdb ponyge.py --grammar_file strudel.pybnf --dataset_train Strudel/Train.txt
 ```

@@ -9,6 +9,5 @@ npm i @strudel/core @strudel/mini --save
 Run
 
 ```bash
-node test.mjs
-python -m pdb ponyge.py --grammar_file strudel.pybnf --dataset_train Strudel/Train.txt
+python -m pdb ponyge.py --grammar_file strudel.bnf --dataset_train Strudel/Train.txt --min_init_tree_depth 4 --max_init_tree_depth 5 --fitness_function strudel
 ```
